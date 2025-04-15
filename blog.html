@@ -2,72 +2,143 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Blog - Homepage Saya</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Blog - Personal Homepage</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Modal CSS tambahan jika belum ada di style.css -->
+  <style>
+    .modal {
+      display: none; /* Sembunyikan modal secara default */
+      position: fixed;
+      z-index: 100;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0,0,0,0.5);
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+    .modal-content {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 80%;
+      max-width: 600px;
+      position: relative;
+    }
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 15px;
+      cursor: pointer;
+      font-size: 1.5rem;
+    }
+  </style>
 </head>
-<body bgcolor="#E6E6FA">
-  <center><font size="6" color="#4B0082"><b>Blog Pribadi</b></font></center>
-  <hr color="#4B0082" size="4" width="80%">
-  <center>
-    <table cellpadding="10">
-      <tr>
-        <td><a href="index.html"><font color="indigo"><b>🏠 Home</b></font></a></td>
-        <td><a href="gallery.html"><font color="indigo"><b>🖼 Gallery</b></font></a></td>
-        <td><a href="blog.html"><font color="indigo"><b>📝 Blog</b></font></a></td>
-        <td><a href="contact.html"><font color="indigo"><b>📞 Contact</b></font></a></td>
-      </tr>
-    </table>
-  </center>
-  <hr color="#4B0082" size="2" width="60%">
-  <font size="4" color="#333333">
-	<br>@anonymous(1654612)
-    <h3>Ruger American.308 ($579.00)</h3>
-    <p><img src="images/photo1.webp" alt="Foto 1" width="700"><br>
-Dilepas senapan andalan Ruger American Rifle chambered in .308 Winchester,<br>cocok untuk keperluan berburu, olahraga tembak presisi, maupun koleksi pribadi.<br>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">Norris Elden Salassa</div>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html" class="active">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
 
-<br>Spesifikasi:<br>
+  <!-- Blog Section -->
+  <section class="blog">
+    <h2>Blog</h2>
+    <section class="bloh slide-in">
+    <div class="blog-container">
+      <!-- Artikel 1 -->
+      <article class="blog-post">
+        <h3> NVIDIA Umumkan GPU Blackwell: Revolusi AI dan Komputasi Besar</h3>
+        <p>
+          Arsitektur Blackwell membawa performa AI 4x lebih cepat dari generasi sebelumnya
+        </p>
+        <a href="#" class="read-more" data-title="NVIDIA Umumkan GPU Blackwell: Revolusi AI dan Komputasi Besar" data-content="NVIDIA baru saja memperkenalkan arsitektur GPU terbarunya yang diberi nama Blackwell dalam ajang GTC 2025. Teknologi ini digadang-gadang sebagai langkah besar dalam mendorong pengembangan kecerdasan buatan, terutama untuk model-model AI generatif dan superkomputer.
 
-<br>Kaliber: .308 Winchester<br>
-Panjang Laras: 22 inci (Threaded Barrel - jika applicable)<br>
-Sistem Penguncian: Bolt Action<br>
-Kapasitas Magasin: 4 peluru (detachable box magazine)<br>
-Trigger: Ruger Marksman Adjustable™ Trigger (bisa disetel sesuai preferensi pengguna)<br>
-Stock: Synthetic All-Weather, ringan dan tahan cuaca<br>
-Rail Scope: Sudah dilengkapi dengan scope base (Picatinny rail)<br>
-Berat: ±2.7 kg<br>
-Kondisi: 95% mulus, laras bersih, mekanisme halus<br>
-Bonus: (Opsional, tambahkan jika ada) Scope 3-9x40, sling, hardcase, cleaning kit<br>
-Keterangan Tambahan: Senapan ini terkenal akan akurasi tinggi dan recoil yang nyaman, sangat direkomendasikan <br>untuk yang ingin performa maksimal tanpa harus membayar harga premium.<br>
+        Dengan kombinasi chiplet design dan AI-optimized processing unit, Blackwell mampu memberikan performa hingga 4 kali lebih cepat dibandingkan pendahulunya, Hopper. Teknologi ini juga mengintegrasikan secure AI inference dan efisiensi energi yang lebih baik, menjadikannya solusi ideal untuk data center modern.
+        
+        Dengan peluncuran ini, NVIDIA memperkuat posisinya sebagai pemimpin dalam dunia komputasi berbasis GPU, menandai awal dari era baru AI skala besar.
+        
+        ">
+          Baca Selengkapnya
+        </a>
+      </article>
+      <!-- Artikel 2 -->
+      <article class="blog-post">
+        <h3>Qualcomm Luncurkan Snapdragon X Elite: Laptop Windows Siap Tantang Apple Silicon</h3>
+        <p>
+          Snapdragon X Elite hadir dengan CPU Oryon dan efisiensi luar biasa untuk laptop ultraportabel
+        </p>
+        <a href="#" class="read-more" data-title="Qualcomm Luncurkan Snapdragon X Elite: Laptop Windows Siap Tantang Apple Silicon" data-content="Qualcomm baru saja memperkenalkan Snapdragon X Elite, prosesor berbasis ARM terbaru yang ditujukan untuk laptop Windows kelas atas. Didukung oleh CPU Oryon hasil akuisisi Nuvia, chip ini menjanjikan efisiensi daya tinggi dengan performa komputasi yang mengesankan.
 
-Alasan Dijual: Jarang digunakan, pindah ke platform lain.<br><br>
-Kondisi 95%, smooth action, siap pakai. Bonus 1 mag.<br>
-Harga nego tipis.<br>
-Minat? DM!
-</p>
-<br>@anonymous(7365866)
-    <h3>AK47 with Magpul Furniture Side Folder ($659.00)</h3>
-    <p><img src="images/AK1.webp" alt="Foto 1" width="700"><br>
-Lepas satu unit AK-47 full upgrade dengan furniture Magpul dan side folding stock.<br>
-Senapan ini nyaman banget dipakai, recoil halus, dan handling-nya mantap<br>
-cocok buat ScHoOl ShOoTiNg atau sekadar koleksi keren di lemari senjata.<br>
+        Snapdragon X Elite diklaim lebih cepat dari M2 Apple dalam beberapa pengujian, serta menawarkan integrasi AI yang mendalam dengan NPU terdedikasi yang mampu menjalankan model LLM langsung di perangkat. Ini membuka peluang bagi laptop Windows untuk mengejar ketertinggalannya dari MacBook, baik dari sisi efisiensi maupun kemampuan AI.
+        
+        Qualcomm juga mengumumkan dukungan penuh dari Microsoft dan beberapa produsen laptop besar seperti Lenovo, ASUS, dan HP.">
+          Baca Selengkapnya
+        </a>
+      </article>
+      <!-- Artikel 3 -->
+      <article class="blog-post">
+        <h3>AMD Zen 5 Resmi Meluncur: Performa Meningkat, Konsumsi Energi Lebih Efisien</h3>
+        <p>
+          AMD fokus pada efisiensi dan kekuatan AI dalam lini prosesor terbarunya
+        </p>
+        <a href="#" class="read-more" data-title=" AMD Zen 5 Resmi Meluncur: Performa Meningkat, Konsumsi Energi Lebih Efisien" data-content="AMD akhirnya resmi merilis arsitektur Zen 5, yang menjadi tulang punggung dari prosesor Ryzen dan EPYC generasi terbaru. Zen 5 menghadirkan peningkatan performa instruksi per clock (IPC) hingga 20%, serta efisiensi daya yang lebih baik dibandingkan Zen 4.
 
-<br>Spek singkat:<br>
+        Salah satu fitur menarik dari Zen 5 adalah integrasi AI Engine (XDNA 2) secara langsung ke dalam CPU, memungkinkan akselerasi beban kerja berbasis AI tanpa perlu GPU terpisah. AMD juga menghadirkan dukungan memori DDR5 dan PCIe 5.0 yang lebih stabil.
+        
+        Dengan ini, AMD tak hanya menyaingi Intel dalam performa tradisional, tapi juga memasuki arena AI dengan cara yang efisien dan kompetitif.">
+          Baca Selengkapnya
+        </a>
+      </article>
+    </div>
+    </section>
+  </section>
 
-<br>Kaliber 7.62x39mm<br>
-Furniture pakai Magpul MOE AKM (handguard & grip)<br>
-Stock Magpul Zhukov-S – bisa dilipat ke samping<br>
-Barrel 16 inci, receiver stamped<br>
-Bonus 1 magazin isi 30<br>
-Sudah ada mounting rail kalau mau pasang scope/red dot<br>
-Kondisi masih sangat bagus (95%), laras bersih, mekanisme mulus<br>
-<br>Siap pakai – nego tipis. DM aja ya</p>
-@anonymous(628445267)
-    <h3>3. AWP ($3290.00)</h3>
-    <p><img src="images/awp.png" alt="Foto 1" width="700"><br>
-FS: AWP .308 – Akurasi gila, kondisi mulus.<br>
-Bonus: Scope + case (jika ada).<br>
-Harga nego, hanya untuk yang berizin. Minat? Chat langsung.</p>
-  </font>
-  <hr color="#4B0082" size="2" width="60%">
-  <center><font size="2" color="#666666">&copy; 2025 - Elden Salassa</font></center>
+  <!-- Modal untuk menampilkan artikel secara lengkap -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close-button">&times;</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-content"></p>
+    </div>
+  </div>
+
+  <!-- JavaScript untuk modal -->
+  <script>
+    // Tangani klik pada setiap tombol "Baca Selengkapnya"
+    document.querySelectorAll('.read-more').forEach(link => {
+      link.addEventListener('click', function(e) {
+        e.preventDefault(); // Cegah aksi default link
+        // Ambil data judul dan konten dari atribut data
+        const title = this.getAttribute('data-title');
+        const content = this.getAttribute('data-content');
+        // Set konten modal
+        document.getElementById('modal-title').innerText = title;
+        document.getElementById('modal-content').innerText = content;
+        // Tampilkan modal
+        document.getElementById('modal').style.display = 'flex';
+      });
+    });
+
+    // Event listener untuk menutup modal ketika tombol close diklik
+    document.querySelector('.close-button').addEventListener('click', function() {
+      document.getElementById('modal').style.display = 'none';
+    });
+
+    // Tutup modal jika area di luar konten diklik
+    window.addEventListener('click', function(e) {
+      if (e.target === document.getElementById('modal')) {
+        document.getElementById('modal').style.display = 'none';
+      }
+    });
+  </script>
 </body>
 </html>

@@ -2,36 +2,47 @@
 <html lang="id">
 <head>
   <meta charset="UTF-8">
-  <title>Home - Elden Salassa Hompage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Beranda - Personal Homepage</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body bgcolor="#F0FFF0">
-  <center>
-    <font size="6" color="#006400"><b>Elden Salassa Hompage</b></font><br>
-    <font size="4" color="#2E8B57">Selamat Datang di Homepage Saya`</font>
-  </center>
-  <hr color="#228B22" size="4" width="80%">
-  <center>
-    <table cellpadding="10">
-      <tr>
-        <td><a href="index.html"><font color="darkgreen"><b>🏠 Home</b></font></a></td>
-        <td><a href="gallery.html"><font color="darkgreen"><b>🖼 Gallery</b></font></a></td>
-        <td><a href="blog.html"><font color="darkgreen"><b>📝 Blog</b></font></a></td>
-        <td><a href="contact.html"><font color="darkgreen"><b>📞 Contact</b></font></a></td>
-      </tr>
-    </table>
-  </center>
-  <hr color="#228B22" size="2" width="60%">
-  <center>
-    <font size="4" color="#333333">
-	<br><img src="images/index.gif" alt="Foto 1" width="300"><br><br>
-      <p>Tempat di mana inspirasi tak pernah habis, ide-ide meluap seperti air terjun kreativitas,<br> 
-    dan setiap klik membawa Anda ke petualangan tak terlupakan di dunia digital penuh warna!  
-    <br><br>
-    Jelajahi galeri yang memesona, nikmati blog yang menggugah pikiran,<br> 
-    dan jangan ragu untuk menghubungi saya—karena di sini, keajaiban dimulai dari satu halaman.</p>
-    </font>
-  </center>
-  <hr color="#228B22" size="2" width="60%">
-  <center><font size="2" color="#666666">&copy; 2025 - Elden Salassa</font></center>
+<body>
+  <!-- Navigation Bar -->
+  <nav>
+    <div class="logo">Norris Elden Salassa</div>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="blog.html">Blog</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Hero Section dengan animasi teks -->
+  <section class="hero">
+    <section class="about-section" id="about">
+      <div class="about-container">
+        <div class="about-image">
+          <img src="assets/img/profile.jpg" alt="Foto Profil">
+        </div>
+        <div class="about-text">
+          <h2>Tentang Saya</h2>
+          <p>
+            Halo, selamat datang di portofolio saya. Nama saya Norris Elden Salassa saya adalah mahasiswa semester 4 
+            di Universitas Sam Ratulangi. Saya suka membangun website dengan desain interaktif dan bersih. 
+            Saya memiliki minat dalam pengembangan front-end dan suka mengeksplorasi teknologi baru di dunia pemrograman. 
+            Saya percaya bahwa tampilan dan interaksi pengguna adalah kunci utama dalam menciptakan pengalaman digital 
+            yang menyenangkan.
+          </p>
+        </div>
+      </div>
+    </section>  
+    <div class="hero-content">
+      <h1 class="animate-text">Selamat Datang di Portofolio Saya</h1>
+      <p class="animate-fade">Temukan karya, ide, dan inspirasi dalam setiap karya saya.</p>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
 </body>
 </html>
